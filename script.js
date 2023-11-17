@@ -31,7 +31,7 @@ function retrieve() {
         let car = JSON.parse(localStorage.getItem(key));
 
         card.innerHTML = `<div class="card mt-2 mb-3 border rounded-lg shadow-lg ms-3" style="width: 18rem; background-color: #def0e3; ">
-                         
+                         <h4 class="mt-1 mb-1">Car Details</h4>
                           <ul class="list-group list-group-flush " >
                           <li class="list-group-item  text-start" style="background-color: #def0e3;">Car Brand :<b  style="color: #6951ae;"> ${car.cbrand}</b></li>
                           <li class="list-group-item  text-start" style="background-color: #def0e3;">Price :<b style="color: #6951ae;"> ${car.cprice}</b></li>
